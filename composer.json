@@ -15,12 +15,14 @@
     },
     "minimum-stability": "stable",
     "require-dev": {
-        "mockery/mockery": "^1.2",
         "phpunit/phpunit": "~8"
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\SellerLabs\\Injected\\": "tests"
         }
+    },
+    "require": {
+        "mockery/mockery": "^1.2"
     }
 }
